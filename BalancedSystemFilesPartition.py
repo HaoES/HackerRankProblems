@@ -2,7 +2,7 @@
 
 def mostBalancedPartition(parent, files_size):
     n = len(parent)     
-    total_sum = [0 for i in range(n)] # a list which will contain the sizes of all directories respectively
+    total_sum = [0]*n # a list which will contain the sizes of all directories respectively
     """
     the for loop is used to go through the parent list.
     the while loop will stop when we are at the top of the tree ( temp == -1)
